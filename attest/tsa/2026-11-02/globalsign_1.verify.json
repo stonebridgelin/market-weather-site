@@ -1,0 +1,38 @@
+{
+ "tsa": "globalsign",
+ "tag": "globalsign_1",
+ "nonce": "5554991367488300703",
+ "requested_at": "2026-11-02T23:05:09.000747+00:00",
+ "received_at": "2026-11-02T23:05:09.213555+00:00",
+ "tsr_sha256": "2f8a6d9e39414765a0f5556327903c12348977d1d2e0ed109f003f0b77962c09",
+ "ok": true,
+ "verify": {
+  "valid": true,
+  "gen_time": "2026-11-02T23:05:09.000000+00:00",
+  "accuracy_s": 1.0,
+  "accuracy_source": "token",
+  "conservative_time": "2026-11-02T23:05:10.000000+00:00",
+  "evidence": "ok",
+  "errors": [],
+  "policy": "1.3.6.1.4.1.4146.2.3.2.2",
+  "serial": "51028131252377733494498748442717500741070935801",
+  "signer": "CN=Globalsign R45 TSA for CodeSign 202510,O=GlobalSign nv-sa,C=BE",
+  "chain": [
+   "CN=Globalsign R45 TSA for CodeSign 202510,O=GlobalSign nv-sa,C=BE",
+   "CN=GlobalSign Offline R45 Timestamping CA 2025,O=GlobalSign nv-sa,C=BE",
+   "CN=GlobalSign Timestamping Root R45,O=GlobalSign nv-sa,C=BE",
+   "CN=GlobalSign,O=GlobalSign,OU=GlobalSign Root CA - R6"
+  ],
+  "chain_sha256": [
+   "832ad72e523fdeac83fa4694bce7c6cc261764882866566588c8adca3a838551",
+   "52373a21b95b5e6de12a2bcf0ffb7d6a633b4caad725f64f6236fbe989dbc29e",
+   "6afbc07c724c6f75c7743392f32bf5780bd5dd39268544d4882e7aec1add0282",
+   "2cabeafe37d06ca22aba7391c0033d25982952c453647349763a3ab5ad6ccf69"
+  ],
+  "crl": [
+   "适用"
+  ]
+ },
+ "revocation": "crl_saved",
+ "http_status": 200
+}

@@ -1,0 +1,38 @@
+{
+ "source": "market-risk 波段预警 v2.0：原版 A 与变体 B 的前瞻逐日信号（冻结代码未改）",
+ "tool": "forward_track 1.0（2026-10-26）",
+ "tool_sha256_lf": "a900a97668e3f6e451db02615d5fb10429c04ce69249491f1e23be99f7b7de7a",
+ "rule_files_sha256_lf": {
+  "registered_v20.py": "77f1e9616eb9ab6f23487fda2b4be215ba00c2ab4b6c6051f87427a98c63ff59",
+  "registered_v20_validation.py": "dc5540eb385e13c64734f509d84ac05b52329aee05ed07c6fe6cfbffa19ed453",
+  "channels.py": "6115909a6ff9d89250861eef409dca2b1b39b474752927db3a90d3dde5542991",
+  "inputs.py": "e08bf0363869dd86aca5014905248e0e70feb28814634dfa8dc8bad37aa12341",
+  "state_machine.py": "15d94bb202004c9942f942d6be5da640e78a8281f2a549cbe5a648532979f2bd",
+  "convergence.py": "d37447e0ed36c9dd4f85eef5b391271b8b6dfa61de98323910c38ba3e2c506ea",
+  "data_v20.py": "d7fb49ef8d21c49a81b058c4bf16ed13dafdb17b0a5fc43ca3dcc03dbc7be227",
+  "snapshot.py": "a3d658334949c881c9522e8b9938f8b739983990ee26f856fb2637a4df6c8857"
+ },
+ "versions": {
+  "A": {
+   "p_spx": "0.025",
+   "p_qqq": "0.025",
+   "pr_spx": "0.05",
+   "pr_qqq": "0.05"
+  },
+  "B": {
+   "p_spx": "0.025",
+   "p_qqq": "0.036",
+   "pr_spx": "0.05",
+   "pr_qqq": "0.072"
+  }
+ },
+ "repo_data_raw_sha256": {
+  "SPX": "6941ab293eddb8201e851d873476d64c6cbd584ec9573f5ff757447173bf0b00",
+  "QQQ": "d14e58edcab7ec94b4e6728ce65bbbf8a0a84565d53ce951a37a4e6143a56880"
+ },
+ "repo_end": "2026-09-25",
+ "t0": "2026-09-28",
+ "columns": "0 正常／1 一级／2 二级；evidence 为当日证据级别（无解除延迟）；all_valid 为五个通道当日输入完整",
+ "chain": "row_hash = sha256(prev_hash + \"|\" + 前 9 列逗号连接)；首行 prev_hash 为 64 个 0",
+ "usage": "只含信号，不含回测结果；不构成交易依据"
+}
