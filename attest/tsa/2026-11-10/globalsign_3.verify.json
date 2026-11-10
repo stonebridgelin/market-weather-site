@@ -1,0 +1,8 @@
+{
+ "tsa": "globalsign",
+ "tag": "globalsign_3",
+ "nonce": "8403408108644806293",
+ "requested_at": "2026-11-10T23:30:00.579128+00:00",
+ "ok": false,
+ "error": "请求失败：URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+}
