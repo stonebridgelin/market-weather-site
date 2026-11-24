@@ -1,0 +1,8 @@
+{
+ "tsa": "sslcom",
+ "tag": "sslcom_5",
+ "nonce": "7416029135075560126",
+ "requested_at": "2026-11-24T23:30:00.535499+00:00",
+ "ok": false,
+ "error": "请求失败：URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+}
